@@ -1,0 +1,33 @@
+body {    
+    width: auto;
+    height:auto;
+    background-image: url("img/Website-bg-img.JPG");
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin:auto;
+    padding:0;
+}
+
+.navbarcustom {
+    opacity: .5;
+    
+}
+.nav-link {
+    color: black!important;
+    }
+    #center-screen {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        min-height: 100vh;
+      }
+      .mainimg{
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+      }
